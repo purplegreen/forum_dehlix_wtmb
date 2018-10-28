@@ -2,7 +2,7 @@ module.exports = class User {
     constructor (name, profileicon) {
     this.name = name
     this.profileicon = profileicon
-   this.post = []
+    this.post = []
     this.interactionsGiven = []
         }
 
