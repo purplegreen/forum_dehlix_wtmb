@@ -13,6 +13,13 @@ const deh = new User ('DehLix', '^_^')
 const stella = new User ('Stella', ';)')
 const juno = new User ('Juno', ':)')
 
+
+//interactions //
+const loveit = new Interaction ("Love It")
+const notreally = new Interaction ("Not Really")
+const checkmypost = new Interaction ("I have something to say")
+
+
 const postToothbrushes = new Post ("Toothbrushes", "Take a bamboo one ! You will just have to remove the bristles before putting them into a recycling bin.")
 deh.interactionsGiven(postToothbrushes)
 stella.interactionsGiven(postToothbrushes)
@@ -31,10 +38,6 @@ console.log(allUsers[0].name)
 main()
 
 
-//interactions //
-//var loveit = new Interaction ("Love It")
-//var notreally = new Interaction ("Not Really")
-//var checkmypost = new Interaction ("I have something to say")
 
 
 // //post 1 and interaction //
