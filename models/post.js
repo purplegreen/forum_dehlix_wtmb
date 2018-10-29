@@ -8,4 +8,9 @@ module.exports = class  Post {
          addinteraction(interact) {
              this.interactions.push(interact)
          }
-}
+         report() {
+            console.log(this.title), 
+            'this is a new Post',(this.entry), 
+            'which recieved this number of interactions', (this.interactions.length)
+        }
+        }
