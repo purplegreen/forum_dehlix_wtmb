@@ -3,6 +3,9 @@ const fs = require('fs')
 const UserModel = require('../models/user')
 
 const dbpath = `${__dirname}/../interactions-data.json`
+=======
+const dbpath = `${__dirname}/../user-database.json`
+>>>>>>> 6fcc29218dbcbbab4737761b6611d775205f6b8a
 
 // module.exports = class Interaction {
 //     constructor (response) {
